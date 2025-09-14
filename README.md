@@ -18,11 +18,11 @@
   
   <h4>Lors de ce projet, j'ai implémenté :</h4>
   <ul>
-    <li>les mouvements du joueur, avec une version simple de scripting en C++</li>
-    <li>le système physique, avec nos propres algorithmes de collision 3D</li>
-    <li>le système de scènes et de GameObjects</li>
-    <li>les shaders, incluant un modèle d’illumination basique</li>
-    <li>l’interface permettant de modifier le niveau directement en jeu</li>
+    <li>les mouvements du joueur, avec une version simple de scripting en C++.</li>
+    <li>le système physique, avec nos propres algorithmes de collision 3D.</li>
+    <li>le système de scènes et de GameObjects.</li>
+    <li>les shaders, incluant un modèle d’illumination basique.</li>
+    <li>l’interface permettant de modifier le niveau directement en jeu.</li>
   </ul>
 
 <p align="center">
