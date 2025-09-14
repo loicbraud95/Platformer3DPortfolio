@@ -8,6 +8,10 @@
 
 - C++, GLSL
 
+<h3>🎮 Plateforme</h3>
+
+- PC
+
 <h3>À propos</h3>
    Ce platformer est le premier projet dans lequel nous avons intégré notre propre moteur graphique pour créer un jeu.
   Le moteur graphique utilise l'API OpenGL, et les shaders sont codés en GLSL. Nous étions deux programmeurs et avons eu 10 jours pour réaliser ce projet.
