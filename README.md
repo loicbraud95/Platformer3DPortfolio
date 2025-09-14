@@ -22,4 +22,11 @@
   </ul>
 
 <p align="center">
-<img src"https://imgur.com/07elSDP" height="80%" width="80%" alt = "Disk Sanitization Steps"/>
+<br>
+<img src="https://imgur.com/07elSDP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br>
+<img src="https://imgur.com/EN2G14i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+
+
