@@ -1,4 +1,4 @@
-<h2>Platformer 3D</h2>
+<h2><img src="https://imgur.com/ouEPrKO.png" height="10%" width="10%"/> Platformer 3D</h2>
 
 <h3>🛠️ Outils</h3>
 
