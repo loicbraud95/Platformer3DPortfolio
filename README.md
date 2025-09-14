@@ -21,3 +21,5 @@
     <li>l’interface permettant de modifier le niveau directement en jeu</li>
   </ul>
 
+<p align="center">
+<img src"[https://imgur.com/a/RudVmLX](https://imgur.com/a/RudVmLX)" height="80%" width="80%" alt = "Disk Sanitization Steps"/>
