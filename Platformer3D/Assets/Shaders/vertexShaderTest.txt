@@ -1,0 +1,65 @@
+//vretex shader
+
+#version 330
+
+layout (location = 0) in vec3 pos;
+layout (location = 1) in vec2 uv;
+layout (location = 2) in vec3 normal;
+layout (location = 3) in vec3 color;
+
+//int32_t loc = glGetUniformLocation(program,"nom");
+//a utiliser avec glUniform1i(loc,valeur)
+//uniform sampler2D u_Texture;
+//a utiliser avec glUniform4fv(loc,&lightColor)
+//uniform vec4 u_lightcolor;
+
+uniform sampler2D u_Texture;
+
+struct Light
+{
+	vec3 u_LightDirection;
+	vec3 u_LightAmbientColor;
+	vec3 u_LightDiffuseColor;
+	vec3 u_LightSpecularColor;
+	vec3 u_LightPosition;
+};
+
+uniform Lights
+{
+	Light u_LightData[16];
+};
+uniform int u_LightCount;
+
+
+//declaration uniform block (dispose d un index)
+layout(std140) uniform Matrices
+{
+	vec3 u_LightPosition;
+	vec3 u_LightColor;
+	mat4 u_ProjectionMatrix;
+	mat4 u_ViewMatrix;
+};
+
+
+out vec4 v_color;
+
+void main()
+{
+	gl_Position = vec4(pos,1.0);
+}
+
+	/*
+	//crreation UBO (uniform buffer)
+	glGenBuffers(1, &UBO);
+	glBindBuffer(GL_UNIFORM_BUFFER, UBO);
+	glBufferData(GL_UNIFORM_BUFFER, sizeof(Block),
+		uboData, GL_STREAM_DRAW);
+
+	//commet relier un UBO et un block
+	//1 choisir un binding point
+	glBindBufferBase(GL_UNIFORM_BUFFER, 42, UBO);
+	//2 recuperer l index de l'uniform block
+	int32_t index = glGetUniformBlockIndex(program, "Matrices");
+	//3 relier le block et l UBO sur le binding point
+	glUniformBlockBinding(program, index, 42);
+	*/

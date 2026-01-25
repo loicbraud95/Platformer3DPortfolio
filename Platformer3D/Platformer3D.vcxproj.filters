@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\src\App.cpp" />
+    <ClCompile Include="Source\src\Core\Debug\Log.cpp" />
+    <ClCompile Include="Source\src\Utils\InputHandler.cpp" />
+    <ClCompile Include="Source\src\Core\Maths\Matrix.cpp" />
+    <ClCompile Include="Source\src\Core\Maths\Vector.cpp" />
+    <ClCompile Include="Platformer3D.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Camera.cpp" />
+    <ClCompile Include="Source\src\glad.c" />
+    <ClCompile Include="Source\src\Resources\Model.cpp" />
+    <ClCompile Include="Source\src\Resources\ResourcesManager.cpp" />
+    <ClCompile Include="Source\src\Resources\Shader.cpp" />
+    <ClCompile Include="Source\src\Utils\Time.cpp" />
+    <ClCompile Include="Source\src\Scene\Transform.cpp" />
+    <ClCompile Include="Source\src\Scene\SceneGraph.cpp" />
+    <ClCompile Include="Source\src\Scene\GameObject.cpp" />
+    <ClCompile Include="Source\src\Resources\Vertex.cpp" />
+    <ClCompile Include="Source\src\Components\MeshRenderer.cpp" />
+    <ClCompile Include="Source\src\Utils\WindowHandler.cpp" />
+    <ClCompile Include="Source\src\Resources\Texture.cpp" />
+    <ClCompile Include="Source\src\Core\Maths\Collision.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Light.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Source\src\Menu.cpp" />
+    <ClCompile Include="Source\src\PlayerBehaviour.cpp" />
+    <ClCompile Include="Source\src\Components\Collider.cpp" />
+    <ClCompile Include="Source\src\Components\RigidBody.cpp" />
+    <ClCompile Include="Source\src\Menus\ControlsMenu.cpp" />
+    <ClCompile Include="Source\src\CheckPoint.cpp" />
+    <ClCompile Include="Source\src\Menus\TreeMenu.cpp" />
+    <ClCompile Include="Source\src\Utils\Button.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\include\App.h" />
+    <ClInclude Include="Source\include\Core\DataStructure\Graph.h" />
+    <ClInclude Include="Source\include\Core\Debug\Assertion.h" />
+    <ClInclude Include="Source\include\Core\Debug\Log.h" />
+    <ClInclude Include="Source\include\Utils\InputHandler.h" />
+    <ClInclude Include="Source\include\Core\Maths\MathPerso.h" />
+    <ClInclude Include="Source\include\Core\Maths\Matrix.h" />
+    <ClInclude Include="Source\include\Core\Maths\Vector.h" />
+    <ClInclude Include="Source\include\glad\glad.h" />
+    <ClInclude Include="Source\include\KHR\khrplatform.h" />
+    <ClInclude Include="Source\include\LowRenderer\Camera.h" />
+    <ClInclude Include="Source\include\LowRenderer\Light.h" />
+    <ClInclude Include="Source\include\Physics\Transform.h" />
+    <ClInclude Include="Source\include\Resources\Model.h" />
+    <ClInclude Include="Source\include\Resources\ResourcesManager.h" />
+    <ClInclude Include="Source\include\Resources\Scene.h" />
+    <ClInclude Include="Source\include\Resources\Shader.h" />
+    <ClInclude Include="Source\include\Resources\Texture.h" />
+    <ClInclude Include="Source\include\Resources\Vertex.h" />
+    <ClInclude Include="Source\include\Utils\Time.h" />
+    <ClInclude Include="Source\include\Utils\WindowHandler.h" />
+    <ClInclude Include="Source\include\Scene\Transform.h" />
+    <ClInclude Include="Source\include\Scene\SceneGraph.h" />
+    <ClInclude Include="Source\include\Scene\GameObject.h" />
+    <ClInclude Include="Source\include\Components\IComponent.h" />
+    <ClInclude Include="Source\include\Components\MeshRenderer.h" />
+    <ClInclude Include="Source\include\Components\Components.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Source\include\Menu.h" />
+    <ClInclude Include="Source\include\Core\Maths\Collision.h" />
+    <ClInclude Include="Source\include\PlayerBehaviour.h" />
+    <ClInclude Include="Source\include\Components\Collider.h" />
+    <ClInclude Include="Source\include\Components\RigidBody.h" />
+    <ClInclude Include="Source\include\Menus\ControlsMenu.h" />
+    <ClInclude Include="Source\include\CheckPoint.h" />
+    <ClInclude Include="Source\include\Menus\TreeMenu.h" />
+    <ClInclude Include="Source\include\Utils\Button.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="Assets\Shaders\Default.vert" />
+    <None Include="Assets\Shaders\Default.frag" />
+    <None Include="Assets\Shaders\Skybox.vert" />
+    <None Include="Assets\Shaders\Skybox.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\baboon.jpg" />
+  </ItemGroup>
+</Project>
