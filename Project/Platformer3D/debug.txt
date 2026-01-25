@@ -1,0 +1,24 @@
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : Alien.obj doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : button.obj doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : cube.obj doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : sphere.obj doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : alien.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : b1.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : eridium.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : grass.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : missing_texture.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : quit.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : resume.png doesn't exist.
+
+C:\Users\lolx9\source\repos\GP1_2\visual\GP1\2023_gp_2028_gp_2028_platformer_3d-knuckles\Platformer3D\Source\src\Resources\ResourcesManager.cpp(43): The resource : rock.png doesn't exist.
+
